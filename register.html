@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<link rel="stylesheet" href="css/register.css">
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="validation/jquery.validate.js"></script>
+	<script src="validation/additional-methods.js"></script>
+	<script src="validation/messages_zh.js"></script>
+	<script src="js/public.js"></script>
+</head>
+<body>
+	<form action="index.html" method="post" id="frm">
+		<div class="logo">
+			<div class="icon"></div>
+			<div class="txt">伟达金云桥</div>
+		</div>
+		<div class="register">
+			<div class="register-title"><p>用户注册</p></div>
+			<div class="username">
+				<label for="ipone">
+					<div class="head">
+						<i class="icon iconfont icon-phone"></i>
+					</div>
+				</label>
+				<input type="text" id="ipone" name="phone" placeholder="手机号码">
+				<div class="username_error"></div>
+			</div>
+			<div class="code">
+				<div class="code_content">
+					<label for="code">
+						<div class="icon1">
+							<i class="icon iconfont icon-erweima"></i>
+						</div>
+					</label>
+					<input type="text" id="code" name="code" placeholder="验证码">
+					<div class="code_error"></div>
+				</div>
+				<div class="getcode">获取验证码</div>
+			</div>
+			<div class="pwd">
+				<label for="pwd">
+					<div class="lock">
+						<i class="icon iconfont icon-lock"></i>
+					</div>
+				</label>
+				<input type="password" name="pwd" id="pwd" placeholder="登录密码">
+				<div class="pwd_error"></div>
+				<div class="eye">
+					<i class="icon iconfont icon-mainbtneyeoff"></i>
+					<i class="icon iconfont icon-Eye-open-f"></i>
+				</div>
+			</div>
+			<div class="repwd">
+				<label for="repwd">
+					<div class="lock">
+						<i class="icon iconfont icon-lock"></i>
+					</div>
+				</label>
+				<input type="password" name="repwd" id="repwd" placeholder="确认密码">
+				<div class="pwd_error"></div>
+			</div>
+			<div class="submitbtn">
+				<div>
+					<p>同意协议并提交</p>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="tologin">已注册？立即登录</div>
+				<div class="doc">
+					注册即同意<a href="">《伟达金云桥使用协议》</a>
+				</div>
+			</div>
+		</div>
+	</form>
+	<script src="js/register.js"></script>
+</body>
+</html>

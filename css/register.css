@@ -1,0 +1,155 @@
+body,html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background: url(../images/login_background.jpg) no-repeat;
+	background-size: inherit;
+	background-color: #ffdc74;
+}
+.logo{
+	width: 100px;
+	height: 20px;
+	position: relative;
+	top: 20px;
+	left: 30px;
+}
+.logo .icon{
+	width: 30px;
+	height: 30px;
+	background: url(../images/logo1.png);
+	background-size: cover;
+	float: left;
+}
+.logo .txt{
+	position: relative;
+	top: 5px;
+	left:2px;
+}
+.register{
+	width: 350px;
+	height: 380px;
+	background-color: white;
+	box-shadow: 0px 0px 10px 1px gray;
+	position: absolute;
+	right: 10%;
+	bottom: 30%;
+	border-top: 1px solid red;
+}
+.register label[class*=error],.register div[class*=error]{
+	color: red;
+}
+.register-title,.username,.pwd,.repwd,.code,.submitbtn,.fix,.footer{
+	width: 90%;
+	height: 20px;
+}
+.username,.pwd,.code,.repwd,.footer{
+	margin:0 auto 8%;
+}
+.register-title{
+	margin:5% auto;
+	border-left: 3px solid red;
+	text-indent: 10px;
+	vertical-align: middle;
+}
+.register-title p{
+	position: relative;
+	bottom: 2px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.username,.pwd,.repwd,.code_content,.submitbtn,.getcode{
+	border:1px solid gray;
+	height: 28px;
+	border-radius: 3px;
+}
+.code_content{
+	width: 60%;
+	float: left;
+}
+.code_content .icon{
+
+}
+.getcode{
+	width: 36%;
+	height: 30px;
+	float: right;
+	background: lightpink;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	border:none;
+}
+.username .head,.pwd .lock,.repwd .lock,.code .icon1{
+	width: 10%;
+	height: 100%;
+	background-color: #e5e5e5;
+	border-right:1px solid gray;
+	float: left;
+}
+.code .icon1{
+	width: 30px;
+	height: 100%;
+	float: left;
+}
+.code{
+	margin-bottom: 38px;
+}
+.username i,.pwd i,.repwd i,.code .icon1 i,.eye i{
+	margin-left: 9px;
+	color:black;
+}
+.pwd .eye{
+	width: 10%;
+	height: 28px;
+	background: #e5e5e5;
+	position: absolute;
+	right: 17px;
+	bottom: 180px;
+	border-radius: 0 3px 3px 0;
+}
+.username input,.pwd input,.code input,.repwd input{
+	height: 28px;
+	width: 89.6%;
+	border:none;
+	text-indent: 10px;
+	box-sizing:border-box;
+	outline: none;
+}
+.code input{
+	height: 28px;
+	width: 83%;
+	border:none;
+	text-indent: 10px;
+	box-sizing:border-box;
+	outline: none;
+	float: right;
+}
+.submitbtn{
+	border:none;
+	margin:0 auto;
+	background-color: tomato;
+}
+.submitbtn > div{
+	width: 32%;
+	height: 28px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.submitbtn > div p {
+	line-height: 28px;
+	color: white;
+}
+.footer .tologin{
+	float: left;
+	color: blue;
+}
+.footer .doc{
+	float: right;
+}
+.footer .doc a{
+	color: blue;
+}
+.eye i:nth-child(2){
+	display: none;
+}

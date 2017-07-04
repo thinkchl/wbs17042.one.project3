@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<link rel="stylesheet" href="css/project3.css">
+	<link rel="stylesheet" href="css/login.css">
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="validation/jquery.validate.js"></script>
+	<script src="validation/additional-methods.js"></script>
+	<script src="validation/messages_zh.js"></script>
+	<script src="js/public.js"></script>
+
+</head>
+<body>
+	<form action="project3.html" method="post">
+	<div class="logo">
+		<div class="icon"></div>
+		<div class="txt">伟达金云桥</div>
+	</div>
+	<div class="login">
+		<div class="login-title"><p>用户登录</p></div>
+		<div class="username">
+			<label for="phone">
+				<div class="head">
+					<i class="icon iconfont icon-head1"></i>
+				</div>
+			</label>
+			<input type="text" name="phone" id="phone" maxlength="11" placeholder="用户名">
+			<div class="username_error"></div>
+		</div>
+		<div class="pwd">
+			<label for="pwd">
+				<div class="lock">
+					<i class="icon iconfont icon-lock"></i>
+				</div>
+			</label>
+			<input type="password" name="pwd" id="pwd" maxlength="10" placeholder="密码">
+			<div class="pwd_error"></div>
+			<div class="eye">
+				<i class="icon iconfont icon-mainbtneyeoff"></i>
+				<i class="icon iconfont icon-Eye-open-f"></i>
+			</div>
+		</div>
+		<div class="code">
+			<div class="code_content">
+				<input type="text" name="code" placeholder="验证码" maxlength="4">
+				<div class="code_error"></div>
+			</div>
+			<div class="showcode">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div><p>看不清？换图片</p></div>
+		</div>
+		<div class="loginbtn">
+			<div>
+				<p>登录</p>
+			</div>
+		</div>
+		<div class="fix">
+			<div class="register">
+				<div>用户注册</div>
+			</div>
+			<div class="forget">
+				<div>忘记密码？</div>
+			</div>
+		</div>
+	</div>
+	</form>
+	<script src="js/login.js"></script>
+</body>
+</html>

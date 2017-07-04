@@ -1,0 +1,85 @@
+body,html{
+	width: 100%;
+	height: 100%;
+}
+.top{
+	width: 100%;
+	height: 50px;
+	background: #e5e5e5;
+	position: fixed;
+	top: 0;
+	z-index: 32454;
+	opacity: 0.7;
+	min-width: 1000px;
+}
+.top_content{
+	width: 82%;
+	height: 50px;
+	margin:0 auto;
+	line-height: 50px;
+}
+
+.top_content_left{
+	background: url(../images/logo1.png) no-repeat 10px 10px;
+	background-size: 30px;
+	font-size: 16px;
+	text-indent: 45px;
+	float: left;
+}
+.top_content_center{
+	float: left;
+	margin-left: 3%;
+}
+.top_content_right{
+	float: right;
+	color: red;
+}
+.top_content_right i{
+	font-size: 32px;
+	color: white;
+	background: red;
+	border-radius: 100%;
+}
+.top ul li{
+	display: inline-block;
+	text-indent: 32px;
+}
+.top_content_right a{
+	color: red;
+	vertical-align: super;
+}
+.top_content_right span{
+	vertical-align: super;
+}
+.swipercontent,.swipercontent .swiper-wrapper{
+	width: 100%;
+	height: 100%;
+}
+.swipercontent video{
+	width: 100%;
+	height: 100%;
+	object-fit:fill;
+}
+.swipercontent .swiper-slide img:nth-child(1){
+	position: absolute;
+	bottom: 0;
+}
+.swipercontent .swiper-slide img:nth-child(2){
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.swiper-pagination-bullet{  
+    width:20px;  
+    height:20px;  
+    text-align:center;  
+    line-height:20px;  
+    font-size:12px;  
+    color:#000;  
+    opacity:1;  
+    background:rgba(0,0,0,0.2);  
+}  
+.swiper-pagination-bullet-active{  
+    color:#fff;  
+    background:#007aff;  
+}  
